@@ -1,0 +1,14 @@
+{
+  "name": "claude-anti-mem",
+  "owner": {
+    "name": "your-org"
+  },
+  "description": "A rap sheet for Claude — logs hallucinations, overkill, and wrong assumptions; consults the log before future responses.",
+  "plugins": [
+    {
+      "name": "claude-anti-mem",
+      "source": "./plugins/claude-anti-mem",
+      "description": "Two skills that work as a pair: anti-mem-collector (logs Claude's failures to a persistent markdown rap sheet when you correct it) and anti-mem-checker (consults the rap sheet before Claude commits to a response, course-correcting away from logged failure patterns)."
+    }
+  ]
+}

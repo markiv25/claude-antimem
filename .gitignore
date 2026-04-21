@@ -1,0 +1,27 @@
+# editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# os
+.DS_Store
+Thumbs.db
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node (in case a future version adds a build step)
+node_modules/
+dist/
+build/
+
+# user-generated rap sheets (don't commit personal failure logs)
+anti-mem.md
+!examples/anti-mem.md
+
+# local data dirs
+.claude-anti-mem/
