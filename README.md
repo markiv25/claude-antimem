@@ -20,7 +20,7 @@ The rap sheet lives at `~/.claude-anti-mem/anti-mem.md` as plain markdown. You c
 ### Claude Code (plugin)
 
 ```bash
-/plugin marketplace add <your-org>/claude-anti-mem
+/plugin marketplace add markiv25/claude-anti-mem
 /plugin install claude-anti-mem
 ```
 
